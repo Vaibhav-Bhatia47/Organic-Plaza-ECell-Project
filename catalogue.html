@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganicMart</title>
+    <link rel="stylesheet" href="catalogue.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<script >
+
+    function toggleHide1() {
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('id1');
+        if (para.style.display != 'none') {
+            para.style.display = 'none';
+        }
+        else {
+            para.style.display = 'block';
+        }
+    }
+    function toggleHide2() {
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('id2');
+        if (para.style.display != 'none') {
+            para.style.display = 'none';
+        }
+        else {
+            para.style.display = 'block';
+        }
+    }
+    function toggleHide3() {
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('id3');
+        if (para.style.display != 'none') {
+            para.style.display = 'none';
+        }
+        else {
+            para.style.display = 'block';
+        }
+    }
+    function toggleHide4() {
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('id4');
+        if (para.style.display != 'none') {
+            para.style.display = 'none';
+        }
+        else {
+            para.style.display = 'block';
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav id="navbar">
+
+            <ul>
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="catalogue.html">
+                    <li>Catalogue</li>
+                </a>
+                <a href="about.html">
+                    <li>About </li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact </li>
+                </a>
+            </ul>
+            <div id="NL">
+                <img
+                    src="https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/7/4/9/8/2748947-1-eng-GB/Organic-natural-acquisitions-allow-the-food-industry-to-align-CSR-messages-with-product-portfolio-Euromonitor.jpg">
+                <p id="name">ORGANIC MART</p>
+            </div>
+        </nav>
+    </div>
+
+   
+
+    <div id="Items">
+        <ul>
+            <li id="li1">
+                <img src="https://www.healthifyme.com/blog/wp-content/uploads/2018/08/Jaggery-feature-600x375.jpeg">
+                
+
+                <div id="id1">
+                    <center><h2>Cal Jaggery</h2></center>
+                    <p>Rich in Calcium due to Sesame Seeds and Jaggery is a natural product so a good alternative to
+                        candies.</p>
+                    <p>Twenty Candies Per Pack</p>
+                    <p> Ratings : 4.2/5</p>
+                </div>
+                <button class="btn" onclick="toggleHide1()"> Description Show/Hide</button>
+                <button class="btn">Buy Now</button>
+
+            </li>
+            <li id="li2">
+                <img
+                    src="https://d3gg7p8kl1yfy0.cloudfront.net/Recipe-Detail-Cinn_latte-0018_2022.jpg?mtime=20220109104603&focal=none">
+               
+
+                <div id="id2">
+                    <center><h2>Cinamon Latte</h2></center>
+                    <p>A healthy and delicious product,free of chemicals.Contains nutritioal values of cinamon and
+                        turmeric also.</p>
+                    <p>Ten Grams Per Sachet</p>
+                    <p>Ratings : 4.1/5</p>
+                </div>
+                <button class="btn" onclick="toggleHide2()"> Description Show/Hide</button>
+                <button class="btn">Buy Now</button>
+            </li>
+            <li id="li3">
+                <img src="https://www.grainmillers.com/wp-content/uploads/2020/08/BlendSquare.jpg?fit=1024%2C683&ssl=1">
+                
+
+                <div id="id3">
+                    <center><h2>MultiGrains</h2></center>
+                    <p>Contains nutritional values of many whole grains and not to mention also free of
+                        chemicals.Helps in living a healthy life and can be consumed at any time in the day.</p>
+                    <p>Two Hundred Grams Per Container</p>
+                    <p>Ratings : 4.6/5</p>
+                </div>
+                <button class="btn" onclick="toggleHide3()"> Description Show/Hide</button>
+                <button class="btn">Buy Now</button>
+            </li>
+            <li id="li4">
+                <img src="https://5.imimg.com/data5/XO/BL/UH/SELLER-5854474/organic-wheat-500x500.jpg">
+                
+                <div id="id4">
+                    
+                    <center><h2>OrgAtta</h2></center>
+                    <p>Organic Atta, a saviour of yours if you want a life free of chemicals and want to want to
+                        consume atta without much thinking. Straight from the farms ,produced organically. </p>
+                    <p> Three Variants Available : 5Kg 10Kg 20Kg</p>
+                    <p>Ratings : 4.3/5</p>
+                </div>
+                <button class="btn" onclick="toggleHide4()"> Description Show/Hide</button>
+                <button class="btn">Buy Now</button>
+            </li>
+        </ul>
+    </div>
+   
+</body>
+
+</html>
