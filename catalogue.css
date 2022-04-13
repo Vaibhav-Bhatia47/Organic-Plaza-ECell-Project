@@ -1,0 +1,164 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+div ul{
+    display: flex;
+   
+    list-style: none;
+    
+}
+div img{
+    height:95px;
+}
+div#NL{
+    float: right;
+    position: relative;
+    bottom: 100px;
+   font-family: 'Rubik Moonrocks', cursive;
+   font-size: 20px;
+   font-weight: 700;
+   color: white;
+}
+div#NL img{
+    height: 60px;
+    width: 90px;
+}
+div#NL p{
+    margin: 0px;
+    padding: 0px;
+    
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: green;
+}
+    
+
+#navbar::before{
+    content: "";
+    background-color: green;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100px;
+    width:100%;
+    z-index: -1;
+    opacity: 2;
+}
+
+
+
+ div a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color:rgb(245, 247, 245);
+    border-color: green;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    
+}
+a:hover{
+    color:white;
+    background-color: greenyellow;
+}
+
+#Items::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    opacity: 0.6;
+    background: url('https://media.istockphoto.com/photos/super-food-for-a-healthy-diet-picture-id1081090762?k=20&m=1081090762&s=612x612&w=0&h=8ESzOOTykppA-UC6YpPMvJWLlxNSebbPZyzj3ph2IlM=');
+    
+    
+    z-index: -1;
+    
+  }
+  #Items ul li{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border:4px solid green;
+      border-radius: 10px;
+      margin:10px;
+      width:300px;
+
+  }
+  div ul li p{
+      font-weight: 700;
+      font-family: 'Baloo Bhai 2', cursive;
+      
+  }
+  
+  #Items h2{
+      text-decoration: underline;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 40px;
+  }
+  .btn{
+      padding: 5px;
+      font-weight: 700;
+      font-family: 'Baloo Bhai 2', cursive;
+      background-color: greenyellow;
+      color: white;
+      font-size: 20px;
+  }
+ div ul li img{
+     height:200px;
+     width:300px;
+ }
+ #li1{
+     background-color: rgb(99, 235, 89);
+ }
+ #li2{
+     background-color: rgb(99, 235, 89);;
+     float: right;
+ }
+ #li3{
+     background-color: rgb(99, 235, 89);;
+ }
+ #li4{
+     background-color: rgb(99, 235, 89);;
+ }
+  h1{
+    color: blueviolet;
+    padding:0px;
+    margin: 0px;
+ }
+  h3{
+     color: blueviolet;
+     padding:0px;
+    margin: 0px;
+ }
+ body{
+     background-color: blanchedalmond;
+ }
+ #id1{
+     display: none;
+     color: darkgreen;
+ }
+ #id2{
+    display: none;
+    color: darkgreen;
+}
+#id3{
+    display: none;
+    color: darkgreen;
+}
+#id4{
+    display: none;
+    color: darkgreen;
+}
+.btn{
+    border: 3px solid darkgreen;
+    border-radius: 7px;
+}
+ 
